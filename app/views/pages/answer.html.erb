@@ -1,0 +1,18 @@
+
+<div class="gridy">
+  <div class="lin">
+    <div class ="pnt"> </div>
+    <h2><%= params['question'] %></h2>
+    <div class ="pnt"> </div>
+    <p>- you</p>
+  </div>
+
+  <div class="lin">
+    <div class ="pnt"> </div>
+    <h2><%=@answer%></h2>
+    <div class ="pnt"> </div>
+    <p>- Your coach</p>
+  </div>
+</div>
+
+<%=link_to "Ask another question", ask_path%>
